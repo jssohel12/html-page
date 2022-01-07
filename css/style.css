@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    background-color:rgb(153, 147, 147);
+
+}
+.parent{
+    background-image: url(../images/pexels-francesco-ungaro-1671324.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo h2{
+    font-size: 30px;
+    font-family:fantasy;
+    font-weight: 600;
+    color: yellow;
+    margin-left: 20px;
+}
+a{
+    text-decoration: none;
+}
+.navbar ul li{
+    display: inline-block;
+}
+.navbar ul li{
+    position: relative;
+
+}
+.navbar ul li > a{
+   
+    margin: 0px 20px;
+    
+}
+.navbar ul li a{
+    color: white;
+    font-size: 15px;
+    font-family:  sans-serif;
+    font-weight: 500;
+    display: block;
+    transition: all linear .3s;
+}
+
+.navbar ul li a:hover{
+    color: rgb(73, 69, 66);
+    
+
+}
+.navbar ul li ul{
+    position: absolute;
+    top: 42px;
+    background: #9ba39d;
+    line-height: 30px;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all linear .4s;
+
+}
+.navbar  ul li ul li{
+    width: 100%;
+}
+
+.navbar  ul li:hover > ul{
+    opacity: 1;
+    visibility: visible;
+}
+.navbar  ul li ul li ul{
+    left: 100%;
+    top: 0;
+}
+.search input{
+    height: 26px;
+    width: 270px;
+    margin-left: 350px;
+    border-radius: 7px;
+    border-color: salmon;
+}
+.search button{
+    height: 26px;
+    width: 60px;
+    border-radius: 7px;
+    margin-left: 5px;
+
+}
+.parent{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+}
+.parent .pic1{
+    color: white;
+    width: 50%;
+    height: 70vh;
+    margin-top: 150px;
+}
+.parent .pic{
+    color: white;
+    width: 40%;
+    height: 70vh;
+    margin-top: 20px;
+    margin-left: 100px;
+    
+}
+.parent .pic1 h1{
+    font-size: 70px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+.parent .pic1 h1 span{
+    color: royalblue;
+    text-transform: capitalize;
+}
+.parent .pic1 p{
+    font-size: 16px;
+    text-align: justify;
+    margin-left: 20px;
+    font-weight: 400;
+
+}
+.pic img{
+    height: 500px;
+    width: 500px;
+    margin-left: 70px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+
